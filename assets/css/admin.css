@@ -1,0 +1,117 @@
+.container_admin{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#menu_admin{
+    background-image: url("../img/fond.jpg");
+    color: white;
+    margin: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 20em;
+    height: 10em;
+    border-radius: 20px;
+    box-shadow: 6px 6px 10px black;
+    padding: 0.5em;
+    transition: 0.5s;
+}
+
+#menu_admin:hover{
+    transform:scale(1.10);
+    color: tomato;
+}
+
+h2{
+    margin: 1em;
+}
+
+#tab_admin{
+    border: 1px solid white;
+    text-align: center;
+}
+
+#tab_admin a{
+    display: flex;
+    justify-content: center;
+}
+
+#tab_admin {
+    border-collapse: collapse;
+    width: 55%;
+  }
+  
+#tab_admin td, #tab_admin th {
+    border: 1px solid #ddd;
+}
+  
+#tab_admin tr:hover {
+    background-color: rgba(221, 221, 221, 0.514);
+}
+  
+#tab_admin th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-image: url("../img/fond.jpg");
+    color: white;
+}
+
+#update_page{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.formulaire{
+    background-image: url("../img/fond.jpg");
+    color: white;
+    border-radius: 20px;
+    box-shadow: 6px 6px 10px black;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    margin: 1em;
+}
+
+
+#back_home{
+    justify-content: center;
+}
+
+a:hover{
+    color:tomato;
+}
+
+#back_home div{
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    
+}
+
+button{
+    margin-top: 1em;
+    border-radius: 20px;
+    background-color: tomato;
+    color: white;
+    transition: 0.5s;
+}
+
+button:hover{
+    transform: scale(1.10);
+}
+
+#button_div{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}

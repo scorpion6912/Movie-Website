@@ -1,0 +1,81 @@
+.container_film_unite{
+    display: flex;
+    padding: 3em;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container_film_unite div{
+    display: flex;
+}
+
+.container_film_unite div div{
+    flex-direction: column;
+    width: 20em;
+
+}
+
+.description_film{
+    padding: 2em;
+}
+
+.voter{
+    background-image: url("../img/fond.jpg");
+    color: white;
+    border-radius: 20px;
+    box-shadow: 6px 6px 10px black;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+p{
+    margin: 0;
+}
+
+input{
+    width: 25%;
+}
+
+.vote{
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5em;
+}
+
+button{
+    margin-top: 1em;
+    border-radius: 20px;
+    background-color: tomato;
+    color: white;
+    transition: 0.5s;
+}
+
+button:hover{
+    transform: scale(1.10);
+}
+
+a{
+    justify-content: center;
+}
+
+a:hover{
+    color:tomato;
+}
+
+a div{
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    
+}
+
+.vote_eff{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3em;
+}
